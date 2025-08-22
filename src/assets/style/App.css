@@ -1,0 +1,33 @@
+.ant-btn {
+    box-shadow: none !important;
+}
+.ant-menu-item {
+    border-radius: 0px !important;
+  }
+.ant-menu-item-selected{
+    border-right:3px solid;
+}
+.ant-pagination-prev{
+    margin-left: auto;
+}
+.ant-pagination-next{
+    margin-right: auto;
+}
+.ant-pagination{
+    width: 100%;
+}
+
+#related_person_phone:hover {
+     border-color: #7586AC;
+}
+#related_person_phone:focus {
+    border-color: #7586AC;
+}
+
+
+td, tr, th{
+    text-align: left !important;
+}
+body{
+    overflow: hidden;
+}
