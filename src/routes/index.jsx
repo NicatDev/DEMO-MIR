@@ -43,7 +43,7 @@ const AppRoutes = () => {
 
 const Index = () => {
   return (
-    <BrowserRouter basename="/admin-panel">
+    <BrowserRouter basename="/">
       <Suspense fallback={<Loader />}>
         <AuthProvider>
           <AppRoutes />
