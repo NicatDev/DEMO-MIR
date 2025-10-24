@@ -18,6 +18,7 @@ const AppRoutes = () => {
 
   const routeComponentMap = {
     "": <Home />,
+    "admin-panel": <Home />,
   };
 
   const dynamicRoutes = userModules?.map((form) => {
